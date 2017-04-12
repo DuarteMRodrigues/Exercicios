@@ -4,13 +4,13 @@ import java.util.Scanner;
 
 public class Exercicio1 {
 	public Exercicio1(){
-		int[] valores = new int[5];
-		int[] minMax = new int[2];
+		double[] valores = new double[5];
+		double[] minMax = new double[2];
 		Scanner s = new Scanner(System.in);
 		
 		for(int i = 0; i < valores.length; i++){
 			System.out.print("Insira o " + (i+1) + " numero: ");
-			valores[i] = s.nextInt();
+			valores[i] = s.nextDouble();
 			
 			if(i == 0){
 				minMax[0] = valores[i];

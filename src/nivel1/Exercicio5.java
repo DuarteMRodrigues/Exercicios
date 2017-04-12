@@ -4,12 +4,12 @@ import java.util.Scanner;
 
 public class Exercicio5 {
 	public Exercicio5(){
-		int[] numero = new int[2];
+		double[] numero = new double[2];
 		Scanner s = new Scanner(System.in);
 		
 		do{
 			System.out.print("Insira um numero: ");
-			numero[0] = s.nextInt();
+			numero[0] = s.nextDouble();
 			numero[1] += numero[0];
 		}while(numero[0] != 0);
 		
