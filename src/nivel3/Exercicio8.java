@@ -15,8 +15,6 @@ public class Exercicio8 {
 		prev = random;
 		
 		do{
-			random = r.nextInt(11);
-			
 			System.out.println("O valor foi: " + prev);
 			
 			do{
@@ -24,6 +22,10 @@ public class Exercicio8 {
 				valor[0] = s.next().charAt(0);
 			}while(valor[0] != 'c' && valor[0] != 'C' && valor[0] != 'b' && valor[0] != 'b');
 		
+			do{
+				random = r.nextInt(11);
+			}while(random == prev);
+			
 			if(random <= prev && valor[0] == 'b' || valor[0] == 'B'){
 				System.out.println("Acertou!");
 				cont++;

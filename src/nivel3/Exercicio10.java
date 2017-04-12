@@ -17,8 +17,10 @@ public class Exercicio10 {
 				op[0] = s.next().charAt(0);
 			}while(op[0] != '+' && op[0] != '-' && op[0] != '*' && op[0] != '/' && op[0] != '0');
 		
-			System.out.print("Insira o segundo numero: ");
-			valores[1] = s.nextInt();
+			if(op[0] != '0'){
+				System.out.print("Insira o segundo numero: ");
+				valores[1] = s.nextInt();
+			}
 			
 			switch (op[0]){
 				case '+':

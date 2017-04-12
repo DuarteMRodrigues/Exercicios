@@ -8,8 +8,6 @@ public class Exercicio1 {
 		int[] minMax = new int[2];
 		Scanner s = new Scanner(System.in);
 		
-		minMax[0] = 0; minMax[1] = 0;
-		
 		for(int i = 0; i < valores.length; i++){
 			System.out.print("Insira o " + (i+1) + " numero: ");
 			valores[i] = s.nextInt();

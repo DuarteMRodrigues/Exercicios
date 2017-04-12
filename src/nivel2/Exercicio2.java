@@ -4,15 +4,15 @@ import java.util.Scanner;
 
 public class Exercicio2 {
 	public Exercicio2(){
-		char[] valores = new char[5];
+		char[] valores = new char[1];
 		int cont = 0;
 		Scanner s = new Scanner(System.in);
 		
-		for(int i = 0; i < valores.length; i++){
+		for(int i = 0; i < 5; i++){
 			System.out.print("Insira o " + (i+1) + " carater: ");
-			valores[i] = s.next().charAt(0);
+			valores[0] = s.next().charAt(0);
 			
-			if(valores[i] > 47 && valores[i] < 58){
+			if(valores[0] > 47 && valores[0] < 58){
 				cont++;
 			}
 		}
