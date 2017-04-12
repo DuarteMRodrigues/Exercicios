@@ -4,12 +4,12 @@ import java.util.Scanner;
 
 public class Exercicio10 {
 	public Exercicio10(){
-		int[] valores = new int[2];
+		double[] valores = new double[2];
 		char[] op = new char[1];
 		Scanner s = new Scanner(System.in);
 		
 		System.out.print("Insira o primeiro numero: ");
-		valores[0] = s.nextInt();
+		valores[0] = s.nextDouble();
 		
 		do{
 			do{
@@ -19,7 +19,7 @@ public class Exercicio10 {
 		
 			if(op[0] != '0'){
 				System.out.print("Insira o segundo numero: ");
-				valores[1] = s.nextInt();
+				valores[1] = s.nextDouble();
 			}
 			
 			switch (op[0]){

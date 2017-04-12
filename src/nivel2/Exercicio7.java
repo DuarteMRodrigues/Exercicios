@@ -4,15 +4,15 @@ import java.util.Scanner;
 
 public class Exercicio7 {
 	public Exercicio7(){
-		int[] tempos = new int[3];
-		int[] max = new int[2];
-		int[] min = new int[2];
+		double[] tempos = new double[3];
+		double[] max = new double[2];
+		double[] min = new double[2];
 		int soma = 0;
 		Scanner s = new Scanner(System.in);
 		
 		for(int i = 0; i < tempos.length; i++){
 			System.out.print("Insira o tempo do " + (i+1) + " piloto: ");
-			tempos[i] = s.nextInt();
+			tempos[i] = s.nextDouble();
 			
 			soma += tempos[i];
 			
