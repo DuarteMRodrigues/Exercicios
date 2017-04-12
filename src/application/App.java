@@ -8,7 +8,7 @@ import nivel3.*;
 public class App {
 
 	public static void main(String[] args) {
-		new Exercicio10();
+		new Exercicio15();
 	}
 
 }
